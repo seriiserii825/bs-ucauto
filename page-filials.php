@@ -13,7 +13,7 @@ get_header();
 ?>
 <?php
 $cities = new WP_Query( [
-	'post_type'      => 'city',
+	'post_type'      => 'city_1',
 	'posts_per_page' => - 1,
 	'order'          => 'ASC'
 ] );
