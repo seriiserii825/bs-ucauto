@@ -1,0 +1,142 @@
+@media screen and (max-width: 1200px) {
+	.our-offers {
+		height: auto;
+	}
+	.offers__content {
+		display: block;
+		padding: 60px 0;
+	}
+
+	.offers__item {
+		margin-bottom: 30px;
+	}
+
+	.offers__item:last-child {
+		margin-bottom: 0;
+	}
+	.our-offers-block {
+		float: none;
+	}
+	.separator {
+		display: none;
+	}
+	.our-offers-block svg {
+		top: 30px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.navigation nav{
+		display: none;
+	}
+	.navigation nav ul a {
+		padding: 10px;
+		display: block;
+		color: white;
+		border-bottom: 1px solid #253f7e;
+	}
+	.navigation nav > ul{
+		display: block;
+	}
+	.navigation nav > ul li.menu-item-has-children > a{
+		background: #426db5;
+	}
+	.navigation nav > ul > li > a:visited, .navigation nav > ul > li > a:active {
+		color: white;
+	}
+	.navigation nav .sub-menu {
+		position: static;
+		width: auto;
+		margin-left: 0;
+	}
+	.navigation nav .sub-menu li a {
+		padding: 10px;
+	}
+	.join-us__content {
+		display: block;
+	}
+	.offers__item {
+		display: table;
+		margin: 0 auto 20px;
+		max-width: 400px;
+		border-bottom: 2px solid #a3a3ce;
+	}
+
+	.offers__item:last-child {
+		border: none;
+	}
+	.our-offers__content {
+		text-align: left;
+	}
+	.our-offers-block svg {
+		top: 50px;
+	}
+	.offers__content {
+		padding: 10px 0;
+	}
+	.cities-page {
+		display: block;
+		margin: 0 auto;
+		max-width: 600px;
+	}
+	.cities__item {
+		margin-bottom: 30px;
+	}
+	.category-desc {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		height: auto;
+	}
+	.logo-block {
+		flex-direction: row;
+		align-items: flex-end;
+	}
+	.languages {
+		margin-left: 10px;
+	}
+	.logo-wrapper {
+		width: auto;
+	}
+	.main-slider {
+		height: 400px;
+	}
+	.home-img .bg-bg {
+		height: 400px;
+	}
+	.main-baner h1 {
+		font-size: 35px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.cities-page {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.cities__title a {
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.main-baner h1 {
+		font-size: 24px;
+	}
+
+}
+
+
+@media screen and (max-width: 378px) {
+	.logo-block {
+		display: block;
+	}
+}
+
+.navigation nav.active{
+	display: block;
+}
+
+
