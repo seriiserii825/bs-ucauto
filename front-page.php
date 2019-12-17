@@ -1,26 +1,26 @@
 <?php get_header(); ?>
 <!-- ============MAIN BANER============= -->
-<div class="full-width main-baner">
-    <div class="main-slider" id="js-main-slider">
-		<?php $main_slider = new WP_Query( [
-			'post_type'      => 'slider',
-			'posts_per_page' => - 1
-		] ); ?>
-
-		<?php if ( $main_slider->have_posts() ): ?>
-			<?php while ( $main_slider->have_posts() ): ?>
-				<?php $main_slider->the_post(); ?>
-                <div class="home-img">
-                    <?php $slide_bg = kama_thumb_src('w=1920'); ?>
-                    <div class="bg-bg" style="background-image:url(<?php echo $slide_bg; ?>)"></div>
-                    <h1><?php the_title(); ?></h1>
-                </div>
-
-			<?php endwhile; ?>
-		<?php else: ?>
-		<?php endif; ?>
-    </div>
-</div>
+<!--<div class="full-width main-baner">-->
+<!--    <div class="main-slider" id="js-main-slider">-->
+<!--		--><?php //$main_slider = new WP_Query( [
+//			'post_type'      => 'slider',
+//			'posts_per_page' => - 1
+//		] ); ?>
+<!---->
+<!--		--><?php //if ( $main_slider->have_posts() ): ?>
+<!--			--><?php //while ( $main_slider->have_posts() ): ?>
+<!--				--><?php //$main_slider->the_post(); ?>
+<!--                <div class="home-img">-->
+<!--                    --><?php //$slide_bg = kama_thumb_src('w=1920'); ?>
+<!--                    <div class="bg-bg" style="background-image:url(<?php //echo $slide_bg; ?>)"></div>-->
+<!--/*                    <h1>*/--><?php ////the_title(); ?><!--</h1>-->
+<!--                </div>-->
+<!---->
+<!--			--><?php //endwhile; ?>
+<!--		--><?php //else: ?>
+<!--		--><?php //endif; ?>
+<!--    </div>-->
+<!--</div>-->
 
 <div class="our-offers">
     <div class="container">

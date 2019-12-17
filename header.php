@@ -14,7 +14,7 @@
 <!--</div>-->
 
 <!-- ============HEADER============= -->
-<header>
+<header class="main-header">
     <div class="full-width header">
         <div class="container">
             <div class="navigation">
