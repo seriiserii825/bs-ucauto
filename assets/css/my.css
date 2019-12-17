@@ -2516,10 +2516,14 @@ footer {
 }
 
 .page-title h3 {
+  display: table;
+  margin: 0 auto;
+  padding-bottom: 10px;
   font-size: 50px;
   line-height: 1.1;
   color: #95C7E4;
   text-shadow: 0px 3px 0px rgba(28, 28, 28, 0.2);
+  border-bottom: 2px solid #95C7E4;
 }
 
 @media screen and (max-width: 968px) {
@@ -5341,7 +5345,7 @@ footer {
 }
 
 .block-driver-more a {
-  background: #363636;
+  background: #ccc;
   color: #fff;
   position: absolute;
   right: -2px;
@@ -5355,8 +5359,8 @@ footer {
 
 .block-driver-more:hover {
   color: white;
-  background: #2d5ba9;
-  border: 2px solid #2d5ba9;
+  background: #a0ddf5;
+  border: 2px solid #a0ddf5;
   cursor: pointer;
 }
 
@@ -5369,8 +5373,8 @@ footer {
 }
 
 .block-driver-more:hover a {
-  color: #2d5ba9;
-  background: #EEF900;
+  color: white;
+  background: #8fc4db;
 }
 
 .block-driver-more:hover h4 {
@@ -6355,7 +6359,8 @@ header {
 
 .single-content {
   padding: 30px;
-  border: 1px solid #e4e4e4;
+  border: 1px solid #95C7E4;
+  box-shadow: 0 4px 8px rgba(149, 199, 228, 0.35);
 }
 
 .single-content h3 {
@@ -6815,4 +6820,10 @@ table th:first-child, table td:first-child {
   background-image: url("../img/header-bg.jpg");
   background-size: cover;
   background-position: center;
+}
+.main-footer {
+  background: #f7fcff;
+}
+.main-content {
+  padding: 40px 0;
 }
