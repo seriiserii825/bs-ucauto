@@ -5512,7 +5512,7 @@ footer {
 
 .block-driver-more:hover {
 	color: white;
-	background: #a0ddf5;
+	background: #70a2b5;
 	border: 2px solid #a0ddf5;
 	cursor: pointer;
 }
@@ -6257,13 +6257,9 @@ footer {
 }
 
 .logo-block {
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
+	display: block;
+	width: 232px;
+	height: 90px;
 }
 
 .logo-wrapper {
@@ -6288,6 +6284,7 @@ footer {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
+	padding: 20px 0;
 	width: 100%;
 }
 
@@ -7097,6 +7094,14 @@ input.btn-submit {
 .write-content input[type="tel"] {
 	margin-right: 0;
 }
-
-
+.widget_wpglobus .flags-styled .flag {
+	opacity: .4;
+}
+.widget_wpglobus .flags-styled .flag.wpglobus-current-language {
+	opacity: 1;
+}
+.languages {
+	position: relative;
+	top: -2px;
+}
 /*#f7fcff*/

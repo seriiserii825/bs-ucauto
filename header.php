@@ -21,11 +21,7 @@
                 <div class="menu-mobile-icon menu-hide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/mobile.png" alt="mobile">
                 </div>
-                <div class="logo-block">
-                    <div class="logo-wrapper">
-						<?php the_custom_logo(); ?>
-                    </div>
-                </div>
+                <a href="<?php echo home_url(); ?>" class="logo-block"></a>
                 <nav class="main-menu__nav">
 					<?php wp_nav_menu( [
 						'theme_location'  => 'menu-top',
