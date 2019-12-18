@@ -541,13 +541,6 @@ input[type="submit"] {
 	padding: .6em 1em .4em;
 }
 
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
-}
-
 button:active, button:focus,
 input[type="button"]:active,
 input[type="button"]:focus,

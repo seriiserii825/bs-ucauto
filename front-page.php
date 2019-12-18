@@ -39,9 +39,6 @@
                                         <div class="category-text">
                                             <img src="<?php echo $item['crb_img_real']; ?>"
                                                  alt="car">
-                                            <h4><?php echo $item['crb_title' . get_lang()]; ?></h4>
-                                            <!--                                        <h5 class="slide_cat_t">--><?php //echo $item[ 'crb_cat_name' . get_lang() ]; ?><!--</h5>-->
-                                            <!--                                        <p class="slide_cat_t_text">--><?php //echo $item[ 'crb_cat_description' . get_lang() ]; ?><!--</p>-->
                                             <h5 class="slide_subcat"><?php echo $item['crb_sub_cat_name' . get_lang()]; ?></h5>
                                             <p class="slide_subcat_text"><?php echo $item['crb_sub_cat_description' . get_lang()]; ?></p>
                                         </div>

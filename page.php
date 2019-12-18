@@ -8,36 +8,13 @@ get_header();
 
         <div class="blog blog-post">
             <div class="container">
-                <div class="single-content <?php if ( is_page( 285 ) ) {
-					echo 'video__gallery';
-				} ?>">
-					<?php if ( have_posts() ): ?>
-					<?php the_post(); ?>
-					<?php the_content(); ?>
-					
-					<?php $main_table = carbon_get_the_post_meta( 'crb_main_banner' ); ?>
-					<?php if ( $main_table ): ?>
-                    <div class="main-table" style="overflow-x:auto;" id="js-main-table">
-                        <div class="main-table__table">
-							<?php foreach ( $main_table as $table_item ): ?>
-                                <div class="main-table__item">
-                                    <div class="main-table__img">
-                                        <a href="<?php echo $table_item['crb_image']; ?>">
-                                            <img src="<?php echo $table_item['crb_image']; ?>" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="main-table__title">
-                                        <h3 class="main-table__title"><?php echo $table_item[ 'title' . get_lang() ]; ?></h3>
-                                        <p><?php echo $table_item[ 'text' . get_lang() ]; ?></p>
-                                    </div>
-                                </div>
-							<?php endforeach; ?>
-                        </div>
-						<?php endif; ?>
-						
+                <div class="single-content">
+					<?php if (have_posts()): ?>
+						<?php the_post(); ?>
+						<?php the_content(); ?>
+
 						<?php require_once __DIR__ . '/template-parts/media-gallery.php'; ?>
-						<?php endif; ?>
-                    </div>
+					<?php endif; ?>
                 </div>
             </div>
         </div>
